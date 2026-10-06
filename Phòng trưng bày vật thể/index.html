@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Phòng trưng bày và kiểm tra các vật thể 3D của Phòng Truyền thống số HNUE">
+  <title>Phòng trưng bày vật thể · HNUE</title>
+  <link rel="stylesheet" href="./styles/gallery.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="catalog-panel" id="catalog-panel">
+      <header class="brand">
+        <div class="brand-mark">3D</div>
+        <div>
+          <p class="eyebrow">HNUE · DIGITAL HERITAGE</p>
+          <h1>Phòng trưng bày vật thể</h1>
+        </div>
+      </header>
+
+      <label class="search-box">
+        <span aria-hidden="true">⌕</span>
+        <input id="search-input" type="search" placeholder="Tìm tên vật thể…" autocomplete="off">
+      </label>
+
+      <nav class="filters" id="filters" aria-label="Lọc danh mục">
+        <button class="filter active" data-filter="all">Tất cả</button>
+        <button class="filter" data-filter="js">Tạo bằng JS</button>
+        <button class="filter" data-filter="glb">Mô hình GLB</button>
+        <button class="filter" data-filter="wall">Gắn tường</button>
+        <button class="filter" data-filter="topic-3">Chủ đề 3</button>
+        <button class="filter" data-filter="topic-4">Chủ đề 4</button>
+        <button class="filter" data-filter="topic-5">Chủ đề 5</button>
+      </nav>
+
+      <div class="catalog-summary"><span id="result-count">0 vật thể</span><span id="catalog-status">Sẵn sàng</span></div>
+      <div class="asset-list" id="asset-list"></div>
+    </aside>
+
+    <main class="viewer-panel">
+      <div id="viewer" aria-label="Khung xem vật thể 3D"></div>
+      <div class="viewer-gradient"></div>
+
+      <div class="topbar">
+        <button class="icon-button mobile-only" id="menu-button" aria-label="Mở danh mục">☰</button>
+        <div class="mode-switch" role="group" aria-label="Chế độ xem">
+          <button class="mode active" data-mode="display">Trưng bày</button>
+          <button class="mode" data-mode="inspect">Kiểm tra</button>
+        </div>
+        <div class="topbar-actions">
+          <button class="icon-button" id="reset-button" title="Đặt lại góc nhìn">↺</button>
+          <button class="icon-button" id="fullscreen-button" title="Toàn màn hình">⛶</button>
+        </div>
+      </div>
+
+      <section class="hero-copy" id="hero-copy">
+        <p class="asset-kicker" id="asset-kicker">THƯ VIỆN 3D</p>
+        <h2 id="asset-title">Chọn một vật thể</h2>
+        <p id="asset-description">Chọn trong danh mục để xem riêng từng mô hình, xoay và kiểm tra cấu trúc.</p>
+      </section>
+
+      <div class="loading-card hidden" id="loading-card">
+        <div class="spinner"></div>
+        <div><strong id="loading-title">Đang tải mô hình</strong><span id="loading-detail">Vui lòng chờ…</span></div>
+      </div>
+
+      <section class="inspect-tools hidden" id="inspect-tools">
+        <label><input id="grid-toggle" type="checkbox" checked> Lưới</label>
+        <label><input id="axes-toggle" type="checkbox"> Trục</label>
+        <label><input id="box-toggle" type="checkbox" checked> Khung bao</label>
+        <label><input id="wireframe-toggle" type="checkbox"> Wireframe</label>
+      </section>
+
+      <section class="info-card" id="info-card">
+        <div class="info-heading">
+          <span class="source-badge" id="source-badge">—</span>
+          <span id="source-topic">Chưa chọn</span>
+        </div>
+        <dl class="metrics">
+          <div><dt>Kích thước</dt><dd id="metric-size">—</dd></div>
+          <div><dt>Mesh</dt><dd id="metric-mesh">—</dd></div>
+          <div><dt>Vật liệu</dt><dd id="metric-material">—</dd></div>
+          <div><dt>Nguồn</dt><dd id="metric-source">—</dd></div>
+        </dl>
+      </section>
+
+      <p class="viewer-hint">Kéo để xoay · Cuộn để phóng · Chuột phải để dịch chuyển</p>
+    </main>
+  </div>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.185.1/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.185.1/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>

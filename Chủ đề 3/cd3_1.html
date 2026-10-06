@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Phòng Truyền thống số · Chủ đề 3 (Âm thanh 3D)</title>
+<link rel="stylesheet" href="./styles/chu-de-3.css">
+</head>
+<body>
+
+<div id="blocker" style="display: flex;">
+    <h1>Chủ đề 3 · Phong trào &amp; Hoạt động tiêu biểu</h1>
+    <p>"Truyền thống được biến thành hành động" — Bảo tàng số Đoàn trường ĐHSP Hà Nội.<br>
+    Không gian được chia làm 3 Cụm: Yêu nước cách mạng, Học tập & NCKH, Dấu chân tình nguyện & Chất Sư phạm.<br><br>
+    <span class="control-key">Giữ chuột trái + kéo</span> để xoay góc nhìn &nbsp;·&nbsp;
+    <span class="control-key">W A S D</span> để di + &nbsp;·&nbsp;
+    <span class="control-key">Click</span> vào hiện vật để xem chi tiết.</p>
+    <button class="btn-start" id="btn-start">Bước Vào Không Gian</button>
+</div>
+
+<div id="fade-overlay"></div>
+<div id="zone-flash"></div>
+<div id="hover-dot"></div>
+<div id="focus-label"></div>
+
+<div id="zone-banner">Sảnh trung tâm</div>
+
+<div id="hud-toolbar">
+    <div class="hud-btn" id="btn-guide">📖 Hướng dẫn</div>
+    <div class="hud-btn" id="btn-reset">↺ Đặt lại</div>
+</div>
+
+<div id="now-playing">
+    <span class="np-icon" id="np-mute-btn" title="Tắt/Bật tiếng">🔊</span>
+    <div class="np-info">
+        <div class="np-label">Đang phát nhạc</div>
+        <div class="np-track" id="np-track-name">Tên bài hát...</div>
+    </div>
+    <div class="np-controls">
+        <button class="np-ctrl-btn" id="np-vol-down" title="Giảm âm lượng" aria-label="Giảm âm lượng">−</button>
+        <button class="np-ctrl-btn" id="np-vol-up" title="Tăng âm lượng" aria-label="Tăng âm lượng">+</button>
+    </div>
+</div>
+
+<div id="hud-hint">Giữ <b>chuột trái</b> + kéo để nhìn quanh &nbsp;|&nbsp; <b>W A S D</b> / mũi tên để di chuyển &nbsp;|&nbsp; Click hiện vật để tương tác</div>
+
+<aside id="province-selector" aria-label="Chọn tỉnh trên bản đồ miền Bắc">
+    <div class="province-selector-title">BẢN ĐỒ MIỀN BẮC</div>
+    <div class="province-selector-note">Chọn tỉnh để hiển thị tại TV</div>
+    <div id="province-buttons"></div>
+</aside>
+
+<div id="info-overlay">
+    <div id="info-panel">
+        <div class="info-close" id="info-close">✕</div>
+        <div class="info-zone" id="info-zone">Cụm 1</div>
+        <span class="info-code" id="info-code"></span>
+        <h2 id="info-title">Tiêu đề</h2>
+        <div class="info-meta" id="info-meta"></div>
+        <div class="info-content" id="info-content"></div>
+        <div id="info-img-container"><img id="info-img" src="" alt="Tư liệu"></div>
+    </div>
+</div>
+
+<div id="guide-overlay">
+    <div id="guide-panel">
+        <div class="info-close" id="guide-close">✕</div>
+        <h2>Hướng dẫn tham quan</h2>
+        <ul>
+            <li><span class="gicon">🖱️</span> Giữ <b>chuột trái</b> rồi kéo để xoay góc nhìn xung quanh.</li>
+            <li><span class="gicon">⌨️</span> Dùng <b>W A S D</b> hoặc các <b>phím mũi tên</b> để đi lại trong phòng.</li>
+            <li><span class="gicon">🖼️</span> <b>Click</b> vào các Infographic, Tranh ảnh, TV, Bản đồ nhiệt để xem nội dung chi tiết.</li>
+            <li><span class="gicon">🎵</span> Âm thanh không gian 3D sẽ <b>tự động thay đổi</b> theo khoảng cách và hướng nhìn của bạn tại mỗi cụm.</li>
+            <li><span class="gicon">🔊</span> Ở góc dưới trái, bấm vào <b>biểu tượng loa</b> để tắt/bật tiếng, hoặc dùng nút <b>−</b> / <b>+</b> để giảm/tăng âm lượng.</li>
+        </ul>
+    </div>
+</div>
+
+<div id="canvas-container"></div>
+
+<script type="importmap">
+{
+    "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.185.1/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.185.1/examples/jsm/"
+    }
+}
+</script>
+
+<script type="module" src="./scripts/main.js"></script>
+</body>
+</html>

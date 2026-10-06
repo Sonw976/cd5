@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sketchfab House Plant Preview</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #f4f7f9;
+      color: #1f2937;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    main {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 24px;
+    }
+
+    p {
+      margin: 0 0 24px;
+      color: #64748b;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+    }
+
+    article {
+      overflow: hidden;
+      border: 1px solid #d7e0ea;
+      border-radius: 8px;
+      background: #ffffff;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4 / 3;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 12px;
+      font-size: 13px;
+    }
+
+    a {
+      color: #0b6ea8;
+      font-weight: 700;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Sketchfab House Plant Preview</h1>
+    <p>Trang này chỉ dùng để xem iframe Sketchfab. Cảnh 3D chính nên dùng file GLB local để giữ hiệu năng.</p>
+    <section class="grid" id="plant-grid"></section>
+  </main>
+
+  <script type="module">
+    import { SKETCHFAB_PLANTS, createSketchfabPlantEmbed } from "./sketchfab-plants.js";
+
+    const grid = document.getElementById("plant-grid");
+    SKETCHFAB_PLANTS.forEach(plant => {
+      const card = document.createElement("article");
+      card.appendChild(createSketchfabPlantEmbed(plant));
+      card.insertAdjacentHTML("beforeend", `
+        <footer>
+          <a href="${plant.modelUrl}" target="_blank" rel="nofollow">${plant.title}</a>
+          <span>${plant.author}</span>
+        </footer>
+      `);
+      grid.appendChild(card);
+    });
+  </script>
+</body>
+</html>

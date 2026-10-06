@@ -1,0 +1,7 @@
+.agents/
+.codex/
+
+# OS/editor-generated files
+.DS_Store
+Thumbs.db
+
