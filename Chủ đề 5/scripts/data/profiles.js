@@ -490,6 +490,84 @@ PROFILE_DATA.filter(profile => profile.rk === "bt").forEach(profile => {
   ])];
 });
 
+// Nguồn chuẩn từ 13/10/2026: chỉ dùng ba thư mục tư liệu mới. Các đường dẫn
+// thư mục "Hồ sơ ... đã cập nhật" phía trên được giữ như lịch sử biên tập,
+// sau đó được thay thế tập trung tại đây để tránh bỏ sót hồ sơ.
+const CANONICAL_SOURCE_ROOTS = {
+  ht: "HIỆU TRƯỞNG NHÀ TRƯỜNG ",
+  bt: "BÍ THƯ ĐOÀN TRƯỜNG ",
+  du: "BÍ THƯ ĐẢNG ỦY"
+};
+
+const PARTY_CANONICAL_PORTRAITS = {
+  "DU-01":"1. GS. Trần Văn Giàu/1-gs-tran-van-giau26-10-32-40.jpg",
+  "DU-02":"2. Đ-c Nguyễn Danh Hoàn/Nguyễn Danh Hoàn_.jpg",
+  "DU-03":"3. Đ-c Đỗ Đức Uyên/Đỗ Đức Uyên_.jpg",
+  "DU-04":"4. Đ-c Nguyễn Chí Linh/Nguyễn Chí Linh_.jpg",
+  "DU-05":"5. Đ-c Hà Năng Kháng/Hà Năng Kháng_.jpg",
+  "DU-06":"7. Đ-c Trần Thị Thục Nga/Trần Thị Thục Nga_.jpg",
+  "DU-07":"8. PGS.TS Trần Thị Tâm Đan/Trần Thị Tâm Đan_.jpg",
+  "DU-08":"9. PGS. Phan Sĩ Tấn/Phan Sỹ Tấn_.jpg",
+  "DU-09":"10. GS.TS. Phan Ngọc Liên/Phan Ngọc Liên_.jpg",
+  "DU-10":"11. GS.TS. Nguyễn Hữu Mình  /Nguyễn Hữu Mình_.jpg",
+  "DU-11":"12. GS.TS Bùi Văn Huệ  /Bùi Văn Huệ_.jpg",
+  "DU-12":"13. GS.TS Đinh Quang Báo  /Đinh Quang Báo_.jpg",
+  "DU-13":"14. PGS.TS Đinh Ngọc Bảo  /Đinh Ngọc Bảo_.jpg",
+  "DU-14":"15. PGS.TS Trần Văn Ba     /Trần Văn Ba.jpg",
+  "DU-15":"16. PGS.TS Đặng Xuân Thư    /Đặng Xuân Thư_.jpg",
+  "DU-16":"17. GS.TS Đỗ Việt Hùng  /GS_TS_DoVietHung.avif",
+  "DU-17":"18. GS.TS Nguyễn Văn Minh  /GS_TS_NguyenVanMinh.avif",
+  "DU-18":"19. PGS.TS Nguyễn Văn Hiền  /Nguyễn Văn Hiền_.jpg",
+  "DU-19":"20. PGS.TS Nguyễn Đức Sơn/Thầy Nguyễn Đức Sơn.png"
+};
+
+function canonicalizeSourcePath(value,root){
+  if(!value || /^Đang thiếu/u.test(value))return value;
+  return value
+    .replace(/^\.\//u,"")
+    .replace(/^Hồ sơ Hiệu trưởng(?: - unzip| - đã cập nhật)?\//u,root+"/")
+    .replace(/^Hồ sơ Bí thư Đoàn Trường - đã cập nhật\//u,root+"/")
+    .replace(/^Hồ sơ Bí thư Đảng ủy - đã cập nhât\//u,root+"/");
+}
+
+PROFILE_DATA.forEach(profile => {
+  const root=CANONICAL_SOURCE_ROOTS[profile.rk];
+  profile.image=canonicalizeSourcePath(profile.image,root);
+  if(profile.image)profile.image="./"+profile.image;
+  profile.sources=profile.sources||{};
+  profile.sources.docx=canonicalizeSourcePath(profile.sources.docx,root);
+  profile.sources.portrait=canonicalizeSourcePath(profile.sources.portrait,root);
+
+  if(profile.rk==="du"){
+    const portrait=PARTY_CANONICAL_PORTRAITS[profile.code];
+    profile.image="./"+root+"/"+portrait;
+    profile.sources.portrait=root+"/"+portrait;
+  }
+});
+
+// Các ngoại lệ đã được kiểm tra trực tiếp trong nguồn mới.
+const canonicalYouth07=PROFILE_DATA.find(profile=>profile.code==="DT-07");
+if(canonicalYouth07){
+  canonicalYouth07.image="./BÍ THƯ ĐOÀN TRƯỜNG /7. Đồng chí Đỗ Bội Toàn/Đồng chí Đỗ Bội Toàn (Bí thư Đoàn trường 1969 - 1972).jpg";
+  canonicalYouth07.sources.docx="BÍ THƯ ĐOÀN TRƯỜNG /7. Đồng chí Đỗ Bội Toàn/ĐỒNG CHÍ ĐỖ BỘI TOÀN.docx";
+  canonicalYouth07.sources.portrait="BÍ THƯ ĐOÀN TRƯỜNG /7. Đồng chí Đỗ Bội Toàn/Đồng chí Đỗ Bội Toàn (Bí thư Đoàn trường 1969 - 1972).jpg";
+  canonicalYouth07.sources.verificationNotes=(canonicalYouth07.sources.verificationNotes||[])
+    .filter(note=>!note.includes("thiếu toàn bộ thư mục số 7"));
+}
+
+const canonicalYouth19=PROFILE_DATA.find(profile=>profile.code==="DT-19");
+if(canonicalYouth19){
+  canonicalYouth19.image="./BÍ THƯ ĐOÀN TRƯỜNG /19. Đồng chí Nguyễn Văn Phong/Đồng chí Nguyễn Văn Phong.jpg";
+  canonicalYouth19.sources.portrait="BÍ THƯ ĐOÀN TRƯỜNG /19. Đồng chí Nguyễn Văn Phong/Đồng chí Nguyễn Văn Phong.jpg";
+  canonicalYouth19.sources.verificationNotes=[...new Set([...(canonicalYouth19.sources.verificationNotes||[]),"Nguồn mới có hai ảnh; dùng Đồng chí Nguyễn Văn Phong.jpg vì có độ phân giải và dung lượng cao hơn."])];
+}
+
+// Bốn hồ sơ không có DOCX trong cả nguồn mới lẫn nguồn cũ.
+["DT-04","DT-05","DT-09","DT-10"].forEach(code=>{
+  const profile=PROFILE_DATA.find(item=>item.code===code);
+  if(profile)profile.sources.docx="Đang thiếu DOCX trong nguồn mới; dùng Excel và cột G";
+});
+
 const YOUTH_UPDATED_VERIFICATION_NOTES = {
   "DT-02":["Excel ghi Nguyễn Đình Chương ở tên hồ sơ nhưng cột danh mục ghi Lê Đình Chương; DOCX, tên thư mục và ảnh đều dùng Nguyễn Đình Chương nên giao diện giữ tên này."],
   "DT-05":["Excel ghi Nguyễn Văn Mạo ở tên hồ sơ nhưng cột danh mục ghi Nguyễn Văn Mão; tên thư mục và ảnh dùng Nguyễn Văn Mạo nên giao diện giữ tên này."],

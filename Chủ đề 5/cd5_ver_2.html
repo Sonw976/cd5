@@ -167,7 +167,7 @@ canvas{display:block}
   <div class="ctrl-row">
     <div class="ci"><span class="k">W</span><span class="k">A</span><span class="k">S</span><span class="k">D</span>Di chuyển</div>
     <div class="ci"><span class="k" style="min-width:72px">Kéo chuột</span>Xoay góc nhìn</div>
-    <div class="ci"><span class="k">Click</span>Tương tác</div>
+    <div class="ci"><span class="k">Bấm</span>Tương tác</div>
     <div class="ci"><span class="k">Esc</span>Menu</div>
   </div>
   <button id="start-btn">✦ BƯỚC VÀO KHÔNG GIAN ✦</button>
@@ -185,7 +185,7 @@ canvas{display:block}
     <div class="hctrl">
       <span><b>WASD</b> Di chuyển</span>
       <span><b>Kéo chuột</b> Xoay góc nhìn</span>
-      <span><b>Click</b> Tương tác</span>
+      <span><b>Bấm</b> Tương tác</span>
     </div>
     <button id="menuBtn">☰ Menu</button>
   </div>
@@ -667,7 +667,7 @@ function orientTex(){
       ctx.fillText(z.t,52,z.y-2);
     });
     ctx.fillStyle='rgba(255,255,255,.3)';ctx.font='italic 20px sans-serif';ctx.textAlign='center';
-    ctx.fillText('WASD di chuyển · Kéo chuột để nhìn · Click tương tác',W/2,305);
+    ctx.fillText('WASD di chuyển · Kéo chuột để nhìn · Bấm để tương tác',W/2,305);
   },1024,338);
 }
 
@@ -1453,10 +1453,40 @@ function formatProfileText(value){
   return escapeProfileHtml(value).replace(/\r?\n/g,'<br>');
 }
 
+function publicProfileText(value){
+  if(typeof value!=='string')return value;
+  return value
+    .replace(/\s*\(theo\s+(?:Excel|DOCX)\s+cập nhật\)\.?/giu,'')
+    .replace(/\s*[–—-]?\s*theo\s+(?:Excel|DOCX)\s+cập nhật\.?/giu,'')
+    .replace(/\s+([,)])/g,'$1')
+    .trim();
+}
+
+function isPublicProfileValue(value){
+  var text=String(publicProfileText(value)==null?'':publicProfileText(value)).trim();
+  return Boolean(text)&&text!=='—'&&!/\(\s*\?\s*\)|(?:đang\s+(?:được\s+)?(?:xác minh|cập nhật)|đang\s+cần\s+xác minh)/i.test(text);
+}
+
 function profileItems(value){
-  if(Array.isArray(value))return value.filter(Boolean);
-  if(value==null||value==='')return [];
-  return [value];
+  var values=Array.isArray(value)?value:[value];
+  return values.map(publicProfileText).filter(isPublicProfileValue);
+}
+
+function publicProfileSource(value){
+  var source=String(value==null?'':value)
+    .replace(/\s*[–—-]?\s*nguồn(?:\s+hyperlink)?\s+cột\s+G(?:\s*[–—-]\s*[A-Z]{2}-\d+)?/giu,'')
+    .replace(/\s+trong\s+cột\s+G/giu,'')
+    .replace(/\s*[–—-]?\s*(?:trích\s+trong\s+)?DOCX\s+cập nhật(?:\s*[–—-]\s*[A-Z]{2}-\d+)?/giu,'')
+    .replace(/\s*[–—-]?\s*theo\s+(?:Excel|DOCX)\s+cập nhật/giu,'')
+    .replace(/\s*[–—-]\s*$/u,'')
+    .trim();
+  return isPublicProfileValue(source)?source:'';
+}
+
+function bioField(label,values,fallback,full){
+  var value=completeField(values,fallback);
+  if(!isPublicProfileValue(value))return '';
+  return '<div class="bitem'+(full?' full':'')+'"><label>'+escapeProfileHtml(label)+'</label>'+expandableCopy(value,'p',full?150:95)+'</div>';
 }
 
 function expandableCopy(value,tag,threshold){
@@ -1497,7 +1527,7 @@ function sourceMemoryCards(values,person){
 
 function contributionSection(title,value){
   var items=profileItems(value);
-  if(!items.length)items=['Đang cập nhật từ hồ sơ chính thức.'];
+  if(!items.length)return '';
   return '<section class="asec"><h3>'+escapeProfileHtml(title)+'</h3><ul class="alist">'+
     items.map(function(item){return '<li>'+expandableCopy(item,'div',145)+'</li>';}).join('')+
     '</ul></section>';
@@ -1514,21 +1544,24 @@ function memoryCard(item,person){
   item=item||{};
   var type=item.type||'text';
   var media=safeProfileMediaUrl(item.src||item.url);
+  var publicText=publicProfileText(item.text||item.caption||'');
   var title=item.title?'<div class="memory-title">'+escapeProfileHtml(item.title)+'</div>':'';
-  var source=item.source?'<div class="memory-source">Nguồn: '+escapeProfileHtml(item.source)+'</div>':'';
+  var publicSource=publicProfileSource(item.source);
+  var source=publicSource?'<div class="memory-source">Nguồn: '+escapeProfileHtml(publicSource)+'</div>':'';
   var content='';
   if(type==='image'&&media){
     content='<img src="'+media+'" alt="'+escapeProfileHtml(item.caption||item.title||person.name)+'"/>'+
-      (item.caption?'<div>'+escapeProfileHtml(item.caption)+'</div>':'');
+      (isPublicProfileValue(publicText)?'<div>'+escapeProfileHtml(publicText)+'</div>':'');
   }else if(type==='audio'&&media){
     content='<audio controls preload="none" src="'+media+'"></audio>';
   }else if(type==='video'&&media){
     content='<video controls preload="metadata" src="'+media+'"></video>';
   }else if(type==='quote'){
-    content=expandableCopy(item.text||'Đang cập nhật.','blockquote',175);
+    content=expandableCopy(publicText,'blockquote',175);
   }else{
-    content=expandableCopy(item.text||item.caption||'Đang cập nhật.','div',175);
+    content=expandableCopy(publicText,'div',175);
   }
+  if(!media&&!isPublicProfileValue(publicText))return '';
   return '<article class="memory-card">'+title+content+source+'</article>';
 }
 
@@ -1560,13 +1593,13 @@ function openModal(p){
   var fullBio=sourceData&&sourceData.bio?sourceData.bio:{};
   document.getElementById('tp-bio').innerHTML=
     '<h2 class="section-title">Tiểu sử</h2><div class="bgrid">'+
-    '<div class="bitem"><label>Họ và tên / tên khác</label>'+expandableCopy(completeField(fullBio.name,p.name),'p',95)+'</div>'+
-    '<div class="bitem"><label>Năm sinh</label>'+expandableCopy(completeField(fullBio.dob,bio.dob||'—'),'p',95)+'</div>'+
-    '<div class="bitem"><label>Quê quán</label>'+expandableCopy(completeField(fullBio.que,bio.que||'—'),'p',95)+'</div>'+
-    '<div class="bitem"><label>Vào Đảng</label>'+expandableCopy(completeField(fullBio.dv,bio.dv||'—'),'p',95)+'</div>'+
-    '<div class="bitem full"><label>Trình độ</label>'+expandableCopy(completeField(fullBio.td,bio.td||'—'),'p',125)+'</div>'+
-    '<div class="bitem full"><label>Chức vụ và quá trình công tác</label>'+expandableCopy(completeField(fullBio.cv,bio.cv||'—'),'p',150)+'</div>'+
-    (profileItems(fullBio.other).length?'<div class="bitem full"><label>Thông tin bổ sung</label>'+expandableCopy(fullBio.other.join('\n'),'p',150)+'</div>':'')+
+    bioField('Họ và tên / tên khác',fullBio.name,p.name,false)+
+    bioField('Năm sinh',fullBio.dob,bio.dob,false)+
+    bioField('Quê quán',fullBio.que,bio.que,false)+
+    bioField('Vào Đảng',fullBio.dv,bio.dv,false)+
+    bioField('Trình độ',fullBio.td,bio.td,true)+
+    bioField('Chức vụ và quá trình công tác',fullBio.cv,bio.cv,true)+
+    bioField('Thông tin bổ sung',fullBio.other,'',true)+
     '</div>';
   var contributions=p.contributions||{};
   var fullContributions=sourceData&&sourceData.contributions?sourceData.contributions:{};
@@ -1575,20 +1608,23 @@ function openModal(p){
     :(p.rk==='bt'
       ?['Công tác Đoàn','Nhà trường','Nghiên cứu và xã hội']
       :['Quản lý và xây dựng trường','Khoa học – giáo dục','Đất nước và xã hội']);
-  document.getElementById('tp-ach').innerHTML=
-    '<h2 class="section-title">Đóng góp</h2><div class="contribution-grid">'+
+  var contributionHtml=
     contributionSection(contributionLabels[0],completeItems(fullContributions.union,contributions.union||p.doan))+
     contributionSection(contributionLabels[1],completeItems(fullContributions.school,contributions.school||p.truong))+
     contributionSection(contributionLabels[2],completeItems(fullContributions.society,contributions.society||p.xahoi||p.society))+
-    (profileItems(fullContributions.awards).length?contributionSection('Khen thưởng',fullContributions.awards):'')+
-    (profileItems(fullContributions.other).length?contributionSection('Thông tin bổ sung',fullContributions.other):'')+
+    contributionSection('Khen thưởng',fullContributions.awards)+
+    contributionSection('Thông tin bổ sung',fullContributions.other);
+  document.getElementById('tp-ach').innerHTML=
+    '<h2 class="section-title">Đóng góp</h2><div class="contribution-grid">'+
+    contributionHtml+
     '</div>';
   var memories=Array.isArray(p.memories)?p.memories.slice():[];
   if(!memories.length&&p.quote)memories.push({type:'quote',text:p.quote,source:p.name});
   var fullMemories=sourceData&&sourceData.memories?sourceData.memories:[];
-  document.getElementById('tp-qte').innerHTML='<h2 class="section-title">Hồi ức</h2>'+
-    (fullMemories.length?'<div class="memory-grid">'+sourceMemoryCards(fullMemories,p)+'</div>':
-      (memories.length?'<div class="memory-grid">'+memories.map(function(item){return memoryCard(item,p);}).join('')+'</div>':'<div class="empty-note">Tư liệu đang được cập nhật từ hồ sơ chính thức.</div>'));
+  var memoryHtml=fullMemories.length?sourceMemoryCards(fullMemories,p):memories.map(function(item){return memoryCard(item,p);}).join('');
+  document.getElementById('tp-qte').innerHTML=memoryHtml?'<h2 class="section-title">Hồi ức</h2><div class="memory-grid">'+memoryHtml+'</div>':'';
+  document.querySelector('.tb[data-t="ach"]').hidden=!contributionHtml;
+  document.querySelector('.tb[data-t="qte"]').hidden=!memoryHtml;
   showModalMenu();
   document.getElementById('modal-wrap').classList.add('open');
 }
@@ -1673,7 +1709,7 @@ function loop(){
       while(obj&&!obj.userData.isInteractive)obj=obj.parent;
       if(obj){
         aimed=true;
-        var lbl='Click xem: '+(obj.userData.person?obj.userData.person.name:'');
+        var lbl='Bấm để xem: '+(obj.userData.person?obj.userData.person.name:'');
         document.getElementById('aim-hint').textContent=lbl;
         document.getElementById('aim-hint').classList.add('show');
       }

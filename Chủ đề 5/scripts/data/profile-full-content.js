@@ -1,9 +1,9 @@
-// Generated from the DOCX files in the main project.
+// Generated only from the three canonical Chủ đề 5 source folders.
 // Run: node scripts/generate-profile-full-content.mjs
 export const PROFILE_FULL_CONTENT = {
   "HT-01": {
     "sources": [
-      "Hồ sơ Hiệu trưởng - unzip/1. GS.TSKH. Lê Văn Thiêm/GS.TSKH Lê Văn Thiêm .docx"
+      "HIỆU TRƯỞNG NHÀ TRƯỜNG /1. GS.TSKH. Lê Văn Thiêm/GS.TSKH Lê Văn Thiêm .docx"
     ],
     "modal": {
       "bio": {
@@ -24,7 +24,7 @@ export const PROFILE_FULL_CONTENT = {
           "GS.TSKH Toán học"
         ],
         "cv": [
-          "Hiệu trưởng nhà trường giai đoạn 1951 – 1954",
+          "Hiệu trưởng nhà trường (1951 – 1954)",
           "1951 - 1954: Hiệu trưởng Trường Khoa học Cơ bản (nay là Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội);",
           "1951 - 1954: Hiệu trưởng Trường Sư phạm Cao cấp (nay là Trường Đại học Sư phạm Hà Nội);",
           "1956 - 1980: Toàn quyền Việt Nam tại Viện Liên hợp Nghiên cứu Hạt nhân Dubna, Liên Xô.",
@@ -65,7 +65,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "HT-02": {
     "sources": [
-      "Hồ sơ Hiệu trưởng - unzip/2. GS. Đặng Thai Mai/Nội dung .docx"
+      "HIỆU TRƯỞNG NHÀ TRƯỜNG /2. GS. Đặng Thai Mai/Nội dung .docx"
     ],
     "modal": {
       "bio": {
@@ -84,7 +84,7 @@ export const PROFILE_FULL_CONTENT = {
           "GS. Văn học"
         ],
         "cv": [
-          "Hiệu trưởng nhà trường giai đoạn 1954 - 1956",
+          "Hiệu trưởng nhà trường (1954 - 1956)",
           "1945 - 1946: Giám đốc Ban Đại học Văn khoa",
           "1946: Bộ trưởng Bộ Giáo dục trong Chính phủ Liên hiệp",
           "1947 - 1948: Chủ tịch Ủy ban Kháng chiến tỉnh Thanh Hóa",
@@ -99,7 +99,7 @@ export const PROFILE_FULL_CONTENT = {
           "1946 - 1976: Đại biểu Quốc hội các khóa I, II, III, IV, V"
         ],
         "other": [
-          "Họ tên đầy đủ: Đặng Thai Mai (1902 - 1984)"
+          "Họ tên đầy đủ: GS. Đặng Thai Mai (1902 - 1984)"
         ]
       },
       "contributions": {
@@ -121,7 +121,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "HT-03": {
     "sources": [
-      "Hồ sơ Hiệu trưởng - unzip/3. GS.VS. Phạm Huy Thông/GS.VS Phạm Huy Thông.docx"
+      "HIỆU TRƯỞNG NHÀ TRƯỜNG /3. GS.VS. Phạm Huy Thông/GS.VS Phạm Huy Thông.docx"
     ],
     "modal": {
       "bio": {
@@ -159,14 +159,14 @@ export const PROFILE_FULL_CONTENT = {
           "1960 - 1971: Đại biểu Quốc hội khóa II, III."
         ],
         "other": [
-          "Họ tên đầy đủ: Phạm Huy Thông (1916 - 1988)"
+          "Họ tên đầy đủ: GS.VS Phạm Huy Thông (1916 - 1988)"
         ]
       },
       "contributions": {
         "union": [],
         "school": [
           "Trong thời gian giữ chức vụ Hiệu trưởng nhà trường, thầy đã đưa trường Đại học Sư phạm Hà Nội trở thành trường đại học tiêu biểu nhất trong các trường đại học được Nhà nước công nhận.",
-          "tHẦY CÓ CÔNG LỚN TRONG VIỆC THÀNH LẬP KHOA lỊCHlÍCHUWR"
+          "Thầy có công lao lớn với sự phát triển của khoa Lịch sử trong những năm đầu tiên thành lập;"
         ],
         "society": [
           "Khởi xướng ngành Khảo cổ học ở Việt Nam",
@@ -193,7 +193,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "HT-04": {
     "sources": [
-      "Hồ sơ Hiệu trưởng - unzip/4. GS. Nguyễn Lương Ngọc /Nội dung  (2).docx"
+      "HIỆU TRƯỞNG NHÀ TRƯỜNG /4. GS. Nguyễn Lương Ngọc /Nội dung  (2).docx"
     ],
     "modal": {
       "bio": {
@@ -249,7 +249,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "HT-05": {
     "sources": [
-      "Hồ sơ Hiệu trưởng - unzip/5. GS.TSKH. Nguyễn Cảnh Toàn /Nội dung  (3).docx"
+      "HIỆU TRƯỞNG NHÀ TRƯỜNG /5. GS.TSKH. Nguyễn Cảnh Toàn /Nội dung  (3).docx"
     ],
     "modal": {
       "bio": {
@@ -311,7 +311,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "HT-06": {
     "sources": [
-      "Hồ sơ Hiệu trưởng - unzip/6.GS. Dương Trọng Bái /GS.TS.NGND Dương Trọng Bái.docx"
+      "HIỆU TRƯỞNG NHÀ TRƯỜNG /6.GS. Dương Trọng Bái /GS.TS.NGND Dương Trọng Bái.docx"
     ],
     "modal": {
       "bio": {
@@ -367,7 +367,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "HT-07": {
     "sources": [
-      "Hồ sơ Hiệu trưởng - unzip/7. PGS. TS. Phạm Quý Tư /Nội dung  (5).docx"
+      "HIỆU TRƯỞNG NHÀ TRƯỜNG /7. PGS. TS. Phạm Quý Tư /Nội dung  (5).docx"
     ],
     "modal": {
       "bio": {
@@ -418,7 +418,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "HT-08": {
     "sources": [
-      "Hồ sơ Hiệu trưởng - unzip/8. GS.TS. Vũ Tuấn /Nội dung  (6).docx"
+      "HIỆU TRƯỞNG NHÀ TRƯỜNG /8. GS.TS. Vũ Tuấn /Nội dung  (6).docx"
     ],
     "modal": {
       "bio": {
@@ -468,7 +468,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "HT-09": {
     "sources": [
-      "Hồ sơ Hiệu trưởng - unzip/9. PGS.TS. Nghiêm Đình Vỳ /Nội dung  (7).docx"
+      "HIỆU TRƯỞNG NHÀ TRƯỜNG /9. PGS.TS. Nghiêm Đình Vỳ /Nội dung  (7).docx"
     ],
     "modal": {
       "bio": {
@@ -501,7 +501,7 @@ export const PROFILE_FULL_CONTENT = {
           "Viện trưởng Viện Khoa học xã hội trực thuộc trường ĐHSP Hà Nội."
         ],
         "other": [
-          "Họ tên đầy đủ: Nghiêm Đình Vỳ (1947)"
+          "Họ tên đầy đủ: PGS.TS Nghiêm Đình Vỳ (1947 - 2026)"
         ]
       },
       "contributions": {
@@ -522,7 +522,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "HT-10": {
     "sources": [
-      "Hồ sơ Hiệu trưởng - unzip/10. GS.TS. Đinh Quang Báo /Nội dung  (8).docx"
+      "HIỆU TRƯỞNG NHÀ TRƯỜNG /10. GS.TS. Đinh Quang Báo /Nội dung  (8).docx"
     ],
     "modal": {
       "bio": {
@@ -566,7 +566,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "HT-11": {
     "sources": [
-      "Hồ sơ Hiệu trưởng - unzip/11. GS.TS. Nguyễn Viết Thịnh /Nội dung  (9).docx"
+      "HIỆU TRƯỞNG NHÀ TRƯỜNG /11. GS.TS. Nguyễn Viết Thịnh /Nội dung  (9).docx"
     ],
     "modal": {
       "bio": {
@@ -583,7 +583,7 @@ export const PROFILE_FULL_CONTENT = {
           "1988"
         ],
         "td": [
-          "GS.TS Địa ký"
+          "GS.TS Địa lý"
         ],
         "cv": [
           "Hiệu trưởng nhà trường (2006 - 2012)",
@@ -630,12 +630,12 @@ export const PROFILE_FULL_CONTENT = {
   },
   "HT-12": {
     "sources": [
-      "Hồ sơ Hiệu trưởng - unzip/12. GS.TS Nguyễn Văn Minh /Nội dung  (10).docx",
-      "Hồ sơ Hiệu trưởng - unzip/12. GS.TS Nguyễn Văn Minh /- Nguồn tham khảo.docx"
+      "HIỆU TRƯỞNG NHÀ TRƯỜNG /12. GS.TS Nguyễn Văn Minh /Nội dung  (10).docx"
     ],
     "modal": {
       "bio": {
         "name": [
+          "GS.TS.NGUT Nguyễn Văn Minh",
           "Nguyễn Văn Minh"
         ],
         "dob": [
@@ -646,15 +646,14 @@ export const PROFILE_FULL_CONTENT = {
         ],
         "dv": [],
         "td": [
-          "GS.TS Vật lý"
+          "GS.TS Vật lý học"
         ],
         "cv": [
           "Hiệu trưởng Nhà trường (2012 - 2024)",
           "Giám đốc Trung tâm nghiên cứu công nghệ Nano",
           "2012 - 2024: Hiệu trưởng Nhà trường",
           "Phó Bí thư Đảng ủy nhà trường",
-          "9/2023 - 12/2023 và 1/2026 - 5/2026: Phụ trách Đảng ủy nhà trường",
-          "Thầy Nguyễn Văn Minh"
+          "9/2023 - 12/2023 và 1/2026 - 5/2026: Phụ trách Đảng ủy nhà trường"
         ],
         "other": []
       },
@@ -676,20 +675,18 @@ export const PROFILE_FULL_CONTENT = {
         "Tốt nghiệp Đại học Sư phạm Huế năm 1985, thầy Minh đã lên Tây Nguyên dạy học cho con em đồng bào dân tộc thiểu số. Chính những tháng ngày lăn lộn gian khó đó đã định hình triết lý giáo dục của thầy: \"Giáo dục trước hết và trên hết là hướng con người sống tử tế, sống có trách nhiệm, sống bằng tình yêu thương...\".",
         "Tại Lễ bế giảng năm 2022 của Trường Đại học Sư phạm Hà Nội, thầy Nguyễn Văn Minh đã có bài phát biểu đầy cảm động và ý nghĩa về những suy nghĩ, trăn trở đi tìm triết lý giáo dục Việt Nam:",
         "\"Giáo dục phải bắt đầu từ những điều gần gũi, bắt đầu từ trong nhà mới ra ngoài ngõ. Phải bắt đầu để mỗi trẻ biết thương cha mẹ, biết cảm thông với nỗi nhọc nhằn, bưng bát cơm ăn biết chắt chiu từng hạt, biết hỏi han khi mẹ cha trái gió, trở trời.",
-        "Giáo dục để trẻ đến với nhau bằng tình thương trang lứa, để mỗi em thơ không mặc cảm giàu nghèo. Cái cao cả của một nền giáo dục không phải chỉ tạo ra các chuyên gia thật giỏi giang, mà thành công trước tiên là tạo ra những con người ứng xử văn minh và có tấm lòng rộng lượng.",
-        "Giáo dục để mỗi trẻ biết yêu thương đồng chua nước mặn, biết quý cái dải cát trắng trải dài, biết thương vách đá cheo leo và biết ơn đến từng nắm đất.",
-        "Giáo dục để mỗi trẻ biết một thời đau thương đất nước, biết thương non sông này đã mấy bận chia đôi; biết ơn hàng triệu người đã hòa vào lòng đất để bình yên có được hôm nay. Giáo dục để sông Gianh và dòng sông Bến Hải với những nhịp cầu nối trọn lòng người; đừng bao giờ có 20 năm đợi chờ đằng đẵng, đừng cách một dòng sông mà mất ngần ấy thời gian. Nhắc cho họ nhớ rằng, ngoài đảo xa có những ngôi mộ gió, trên núi non cao bao thế hệ hòa vào núi vào rừng, và trên kỳ đài cờ tung bay phấp phới, nhưng đường đến kỳ đài là biết mấy máu xương, để họ dám xả thân khi Tổ quốc cần họ, để trường tồn mãi mãi Việt Nam. Khi mỗi người biết yêu thương, tự nhiên trong họ sẽ sinh ra trách nhiệm.\""
+        "Giáo dục để trẻ đến với nhau bằng tình thương trang lứa, để mỗi em thơ không mặc cảm giàu nghèo. Cái cao cả của một nền giáo dục không phải chỉ tạo ra các chuyên gia thật giỏi giang, mà thành công trước tiên là tạo ra những con người ứng xử văn minh và có tấm lòng rộng lượng…”"
       ]
     }
   },
   "HT-13": {
     "sources": [
-      "Hồ sơ Hiệu trưởng - unzip/13. PGS.TS. Nguyễn Đức Sơn /Nội dung  (11).docx"
+      "HIỆU TRƯỞNG NHÀ TRƯỜNG /13. PGS.TS. Nguyễn Đức Sơn /PGS,TS Nguyễn Đức Sơn.docx"
     ],
     "modal": {
       "bio": {
         "name": [
-          "Nguyễn Đức Sơn (1970)",
+          "PGS.TS Nguyễn Đức Sơn (1970)",
           "Nguyễn Đức Sơn"
         ],
         "dob": [
@@ -726,12 +723,12 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DU-01": {
     "sources": [
-      "Hồ sơ Bí thư Đảng ủy - unzip/1. GS. Trần Văn Giàu/Nội dung.docx"
+      "BÍ THƯ ĐẢNG ỦY/1. GS. Trần Văn Giàu/Nội dung.docx"
     ],
     "modal": {
       "bio": {
         "name": [
-          "Trần Văn Giàu (1911 - 2010)",
+          "GS. NGND Trần Văn Giàu (1911 - 2010)",
           "Trần Văn Giàu (Bí danh: Hồ Nam)"
         ],
         "dob": [
@@ -748,7 +745,7 @@ export const PROFILE_FULL_CONTENT = {
           "Giáo sư Lịch sử - Triết học."
         ],
         "cv": [
-          "Bí thư Đảng ủy (1954 - 1956)",
+          "Bí thư Đảng ủy nhà trường (1954 - 1956)",
           "1943 - 1945: Bí thư Xứ ủy Nam Kỳ",
           "9/1945: Chủ tịch Ủy ban Kháng chiến Nam Bộ",
           "1949 - 1951: Tổng Giám đốc Nha Thông tin",
@@ -780,7 +777,7 @@ export const PROFILE_FULL_CONTENT = {
         ],
         "other": [
           "Đóng góp với sự nghiệp giáo dục chung của Nhà trường:",
-          "Bí thư Đảng ủy đầu tiên của Trường Đại học Sư phạm Văn khoa (1954), người đặt nền móng cho hệ thống các trường đại học sư phạm và tổng hợp đầu tiên của nước Việt Nam mới.",
+          "Thầy là Bí thư Đảng ủy đầu tiên của Trường Đại học Sư phạm Văn khoa (1954), người đặt nền móng cho hệ thống các trường đại học sư phạm và tổng hợp đầu tiên của nước Việt Nam mới.",
           "Trực tiếp giảng dạy các bộ môn Chính trị, Triết học và Lịch sử, đào tạo nên thế hệ trí thức cách mạng đầu tiên với nhiều tên tuổi nổi tiếng: Hoàng Như Mai, Đinh Xuân Lâm, Phan Huy Lê, Hà Văn Tấn, Trần Quốc Vượng…"
         ]
       },
@@ -793,26 +790,28 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DU-02": {
     "sources": [
-      "Hồ sơ Bí thư Đảng ủy - unzip/2. Đ-c Nguyễn Danh Hoàn/Tài liệu không có tiêu đề.docx"
+      "BÍ THƯ ĐẢNG ỦY/2. Đ-c Nguyễn Danh Hoàn/Tài liệu không có tiêu đề.docx"
     ],
     "modal": {
       "bio": {
         "name": [
-          "Nguyễn Danh Hoàn (? - ?)",
+          "NGND Nguyễn Danh Hoàn (? - ?)",
           "Nguyễn Danh Hoàn"
         ],
         "dob": [],
         "que": [
           "Xã Tịnh Châu, huyện Sơn Tịnh, tỉnh Quảng Ngãi (nay là tỉnh Kontum)"
         ],
-        "dv": [],
+        "dv": [
+          "Đảng viên"
+        ],
         "td": [
-          "GS.TS Lịch sử, chuyên ngành Lịch sử thế giới và Phương pháp giảng dạy Lịch sử"
+          "GS.TS Lịch sử"
         ],
         "cv": [
-          "Bí thư Đảng ủy Trường Đại học Sư phạm Hà Nội (1956 - 1962).",
-          "8/1945: Bí thư Huyện ủy Hưng Nhân (Thái Bình)",
-          "Trưởng Ban Kinh tế tỉnh ủy Thái Bình",
+          "Bí thư Đảng ủy nhà trường (1956 - 1962).",
+          "8/1945: Bí thư Huyện ủy Hưng Nhân",
+          "Trưởng Ban Kinh tế Tỉnh ủy Thái Bình",
           "Giám đốc giáo dục Liên khu 3",
           "1956 - 1962: Bí thư Đảng ủy Trường Đại học Sư phạm Hà Nội",
           "Vụ trưởng Vụ giáo dục Phổ thông, Vụ giáo dục chính trị - Bộ Giáo dục"
@@ -832,15 +831,12 @@ export const PROFILE_FULL_CONTENT = {
           "Thành tích trong hoạt động Đoàn:"
         ]
       },
-      "memories": [
-        "- Từ đồng nghiệp & học trò:",
-        "+ GS.TS Phan Ngọc Liên luôn được các thế hệ học trò, đồng nghiệp nhớ đến với hình ảnh một người thầy mẫu mực, tận tụy và tâm huyết. Tấm gương của ông là nguồn cảm hứng lớn trong việc khơi dậy tình yêu sử học cho sinh viên."
-      ]
+      "memories": []
     }
   },
   "DU-03": {
     "sources": [
-      "Hồ sơ Bí thư Đảng ủy - unzip/3. Đ-c Đỗ Đức Uyên/Đỗ Đức Uyên_.docx"
+      "BÍ THƯ ĐẢNG ỦY/3. Đ-c Đỗ Đức Uyên/Đỗ Đức Uyên_.docx"
     ],
     "modal": {
       "bio": {
@@ -849,10 +845,12 @@ export const PROFILE_FULL_CONTENT = {
         ],
         "dob": [],
         "que": [],
-        "dv": [],
+        "dv": [
+          "Đảng viên"
+        ],
         "td": [],
         "cv": [
-          "Bí thư Đảng ủy (1962 - 1967)"
+          "Bí thư Đảng ủy nhà trường (1962 - 1967)"
         ],
         "other": []
       },
@@ -868,7 +866,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DU-04": {
     "sources": [
-      "Hồ sơ Bí thư Đảng ủy - unzip/4. Đ-c Nguyễn Chí Linh/Nguyễn Chí Linh.docx"
+      "BÍ THƯ ĐẢNG ỦY/4. Đ-c Nguyễn Chí Linh/Nguyễn Chí Linh.docx"
     ],
     "modal": {
       "bio": {
@@ -877,7 +875,9 @@ export const PROFILE_FULL_CONTENT = {
         ],
         "dob": [],
         "que": [],
-        "dv": [],
+        "dv": [
+          "Đảng viên"
+        ],
         "td": [],
         "cv": [
           "Bí thư Đảng ủy (1967 - 1975)",
@@ -895,14 +895,45 @@ export const PROFILE_FULL_CONTENT = {
       "memories": []
     }
   },
-  "DU-06": {
+  "DU-05": {
     "sources": [
-      "Hồ sơ Bí thư Đảng ủy - unzip/7. Đ-c Trần Thị Thục Nga/Tài liệu không có tiêu đề.docx"
+      "BÍ THƯ ĐẢNG ỦY/5. Đ-c Hà Năng Kháng/HÀ NĂNG KHÁNG.docx"
     ],
     "modal": {
       "bio": {
         "name": [
-          "Trần Thị Thục Nga (1930)",
+          "Hà Năng Kháng"
+        ],
+        "dob": [],
+        "que": [],
+        "dv": [
+          "Đảng viên"
+        ],
+        "td": [],
+        "cv": [
+          "Bí thư Đảng ủy nhà trường (1967 - 1975)",
+          "Bí thư Đảng ủy Trường Đại học Sư phạm Hà Nội (1967 - 1975)"
+        ],
+        "other": []
+      },
+      "contributions": {
+        "union": [],
+        "school": [],
+        "society": [],
+        "awards": [],
+        "other": []
+      },
+      "memories": []
+    }
+  },
+  "DU-06": {
+    "sources": [
+      "BÍ THƯ ĐẢNG ỦY/7. Đ-c Trần Thị Thục Nga/TRẦN THỊ THỤC NGA.docx"
+    ],
+    "modal": {
+      "bio": {
+        "name": [
+          "NGUT. Trần Thị Thục Nga (1930 - ?)",
           "Trần Thị Thục Nga"
         ],
         "dob": [
@@ -911,7 +942,9 @@ export const PROFILE_FULL_CONTENT = {
         "que": [
           "Tỉnh Nam Hà (nay là tỉnh Ninh Bình)"
         ],
-        "dv": [],
+        "dv": [
+          "Đảng viên"
+        ],
         "td": [
           "Chuyên ngành Lịch sử"
         ],
@@ -939,12 +972,12 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DU-07": {
     "sources": [
-      "Hồ sơ Bí thư Đảng ủy - unzip/8. PGS.TS Trần Thị Tâm Đan/Nội dung .docx"
+      "BÍ THƯ ĐẢNG ỦY/8. PGS.TS Trần Thị Tâm Đan/Nội dung .docx"
     ],
     "modal": {
       "bio": {
         "name": [
-          "Trần Thị Tâm Đan (1939 -",
+          "PGS.TS. Trần Thị Tâm Đan (1939)",
           "Trần Thị Tâm Đan"
         ],
         "dob": [
@@ -953,12 +986,14 @@ export const PROFILE_FULL_CONTENT = {
         "que": [
           "Xã Xuân Bắc, huyện Xuân Trường, tỉnh Nam Định (nay là tỉnh Ninh Bình)"
         ],
-        "dv": [],
+        "dv": [
+          "Đảng viên"
+        ],
         "td": [
           "PGS.TS Hóa học"
         ],
         "cv": [
-          "Bí thư Đảng ủy (1982 - 1983)",
+          "Bí thư Đảng ủy nhà trường (1982 - 1983)",
           "Phó Chủ nhiệm Khoa Hóa học, Bí thư Đảng ủy Khoa (1976)",
           "1982 - 1983: Bí thư Đảng ủy, Phó Hiệu trưởng Trường Đại học Sư phạm Hà Nội",
           "1989 – 1993: Phó Chủ tịch Ủy ban nhân dân thành phố Hà Nội",
@@ -982,20 +1017,24 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DU-08": {
     "sources": [
-      "Hồ sơ Bí thư Đảng ủy - unzip/9. PGS. Phan Sĩ Tấn/Nội dung (1).docx"
+      "BÍ THƯ ĐẢNG ỦY/9. PGS. Phan Sĩ Tấn/PHAN SỸ TẤN.docx"
     ],
     "modal": {
       "bio": {
         "name": [
+          "PGS Phan Sĩ Tấn",
           "Phan Sĩ Tấn"
         ],
         "dob": [],
         "que": [],
-        "dv": [],
+        "dv": [
+          "Đảng viên"
+        ],
         "td": [
           "PGS"
         ],
         "cv": [
+          "Bí thư Đảng ủy nhà trường (1983 - 1984).",
           "Bí thư Đảng ủy Trường Đại học Sư phạm Hà Nội (1983 - 1984)."
         ],
         "other": []
@@ -1012,12 +1051,12 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DU-09": {
     "sources": [
-      "Hồ sơ Bí thư Đảng ủy - unzip/10. GS.TS. Phan Ngọc Liên/Nội dung (2).docx"
+      "BÍ THƯ ĐẢNG ỦY/10. GS.TS. Phan Ngọc Liên/PHAN NGỌC LIÊN.docx"
     ],
     "modal": {
       "bio": {
         "name": [
-          "Phan Ngọc Liên (1930 - 2009)",
+          "GS.TS.NGND Phan Ngọc Liên (1930 - 2009)",
           "Phan Ngọc Liên"
         ],
         "dob": [
@@ -1026,12 +1065,14 @@ export const PROFILE_FULL_CONTENT = {
         "que": [
           "Xã Tịnh Châu, huyện Sơn Tịnh, tỉnh Quảng Ngãi (nay là tỉnh Kontum)"
         ],
-        "dv": [],
+        "dv": [
+          "Đảng viên"
+        ],
         "td": [
-          "GS.TS Lịch sử, chuyên ngành Lịch sử thế giới và Phương pháp giảng dạy Lịch sử"
+          "GS.TS Lịch sử"
         ],
         "cv": [
-          "Bí thư Đảng ủy Trường Đại học Sư phạm Hà Nội (1985 - 1990).",
+          "Bí thư Đảng ủy nhà trường (1985 - 1990).",
           "Chủ nhiệm Khoa Lịch sử"
         ],
         "other": []
@@ -1047,7 +1088,7 @@ export const PROFILE_FULL_CONTENT = {
         ],
         "society": [],
         "awards": [
-          "2000. Phong tặng danh hiệu Nhà giáo Nhân dân."
+          "2000: Phong tặng danh hiệu Nhà giáo Nhân dân."
         ],
         "other": [
           "Thành tích trong hoạt động Đoàn:"
@@ -1061,18 +1102,21 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DU-10": {
     "sources": [
-      "Hồ sơ Bí thư Đảng ủy - unzip/11. GS.TS. Nguyễn Hữu Mình  /GS.TS NGUYỄN HỮU MÌNH.docx"
+      "BÍ THƯ ĐẢNG ỦY/11. GS.TS. Nguyễn Hữu Mình  /GS.TS NGUYỄN HỮU MÌNH.docx"
     ],
     "modal": {
       "bio": {
         "name": [
+          "GS.TS.NGND Nguyễn Hữu Mình",
           "Nguyễn Hữu Mình"
         ],
         "dob": [],
         "que": [],
-        "dv": [],
+        "dv": [
+          "Đảng viên"
+        ],
         "td": [
-          "GS.TS Vật Lý, chuyên ngành Vật lý lí thuyết"
+          "GS.TS Vật Lý"
         ],
         "cv": [
           "Bí thư Đảng ủy nhà trường (1990- 1992)",
@@ -1096,7 +1140,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DU-11": {
     "sources": [
-      "Hồ sơ Bí thư Đảng ủy - unzip/12. GS.TS Bùi Văn Huệ  /GS. TS BÙI VĂN HUỆ.docx"
+      "BÍ THƯ ĐẢNG ỦY/12. GS.TS Bùi Văn Huệ  /GS. TS BÙI VĂN HUỆ.docx"
     ],
     "modal": {
       "bio": {
@@ -1105,7 +1149,9 @@ export const PROFILE_FULL_CONTENT = {
         ],
         "dob": [],
         "que": [],
-        "dv": [],
+        "dv": [
+          "Đảng viên"
+        ],
         "td": [
           "GS.TS Tâm lý học"
         ],
@@ -1131,25 +1177,28 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DU-12": {
     "sources": [
-      "Hồ sơ Bí thư Đảng ủy - unzip/13. GS.TS Đinh Quang Báo  /GS.TS ĐINH QUANG BÁO.docx"
+      "BÍ THƯ ĐẢNG ỦY/13. GS.TS Đinh Quang Báo  /GS.TS ĐINH QUANG BÁO.docx"
     ],
     "modal": {
       "bio": {
         "name": [
+          "GS.TS.NGUT Đinh Quang Báo",
           "Đinh Quang Báo"
         ],
         "dob": [
           "18/08/1948"
         ],
         "que": [],
-        "dv": [],
+        "dv": [
+          "Đảng viên"
+        ],
         "td": [
           "Giáo sư, Tiến sĩ, Giáo dục học, Lý luận và phương pháp dạy học Sinh học"
         ],
         "cv": [
           "Bí thư Đảng ủy nhà Trường (1999 - 2000)",
-          "1997 - 2006: Hiệu trưởng trường Đại học Sư phạm Hà Nội",
-          "1999 - 2000: Bí thư Đảng ủy nhà Trường"
+          "1997 - 2006: Hiệu trưởng Trường Đại học Sư phạm Hà Nội",
+          "1999 - 2000: Bí thư Đảng ủy nhà trường"
         ],
         "other": []
       },
@@ -1174,23 +1223,24 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DU-13": {
     "sources": [
-      "Hồ sơ Bí thư Đảng ủy - unzip/14. PGS.TS Đinh Ngọc Bảo  /PGS.TS ĐINH NGỌC BẢO.docx"
+      "BÍ THƯ ĐẢNG ỦY/14. PGS.TS Đinh Ngọc Bảo  /PGS.TS ĐINH NGỌC BẢO.docx"
     ],
     "modal": {
       "bio": {
         "name": [
+          "PGS.TS . NGUT Đinh Ngọc Bảo",
           "Đinh Ngọc Bảo"
         ],
         "dob": [],
         "que": [],
         "dv": [],
         "td": [
-          "PGS. TS Sử học, chuyên ngành Lịch sử thế giới"
+          "PGS.TS Sử học"
         ],
         "cv": [
           "Bí thư Đảng ủy nhà trường (2000 - 2006)",
           "2006 - 2012: Bí thư Đảng ủy Trường Đại học Sư phạm Hà Nội (2006 - 2012)",
-          "Phó Hiệu trưởng",
+          "Phó Hiệu trưởng Trường Đại học Sư phạm Hà Nội",
           "Giám đốc Nhà xuất bản Đại học Sư phạm"
         ],
         "other": []
@@ -1213,18 +1263,21 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DU-14": {
     "sources": [
-      "Hồ sơ Bí thư Đảng ủy - unzip/15. PGS.TS Trần Văn Ba     /PGS.TS TRẦN VĂN BA.docx"
+      "BÍ THƯ ĐẢNG ỦY/15. PGS.TS Trần Văn Ba     /PGS.TS TRẦN VĂN BA.docx"
     ],
     "modal": {
       "bio": {
         "name": [
+          "GS.TS. NGƯT Trần Văn Ba",
           "Trần Văn Ba"
         ],
         "dob": [],
         "que": [],
-        "dv": [],
+        "dv": [
+          "Đảng viên"
+        ],
         "td": [
-          "GS.TS Sinh học, chuyên ngành"
+          "GS.TS Sinh học"
         ],
         "cv": [
           "Bí thư Đảng ủy nhà trường (2006 - 2012)",
@@ -1247,18 +1300,21 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DU-15": {
     "sources": [
-      "Hồ sơ Bí thư Đảng ủy - unzip/16. PGS.TS Đặng Xuân Thư    /PGS.TS ĐẶNG XUÂN THƯ.docx"
+      "BÍ THƯ ĐẢNG ỦY/16. PGS.TS Đặng Xuân Thư    /PGS.TS ĐẶNG XUÂN THƯ.docx"
     ],
     "modal": {
       "bio": {
         "name": [
+          "PGS.TS Đặng Xuân Thư",
           "Đặng Xuân Thư"
         ],
         "dob": [],
         "que": [],
-        "dv": [],
+        "dv": [
+          "Đảng viên"
+        ],
         "td": [
-          "Phó giáo sư, Tiến sĩ, chuyên ngành Hóa học"
+          "PGS. TS Hóa học"
         ],
         "cv": [
           "Bí thư Đảng ủy nhà trường (2012 - 2/2020)",
@@ -1283,20 +1339,23 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DU-16": {
     "sources": [
-      "Hồ sơ Bí thư Đảng ủy - unzip/17. GS.TS Đỗ Việt Hùng  /GS.TS ĐỖ VIỆT HÙNG.docx"
+      "BÍ THƯ ĐẢNG ỦY/17. GS.TS Đỗ Việt Hùng  /GS.TS ĐỖ VIỆT HÙNG.docx"
     ],
     "modal": {
       "bio": {
         "name": [
+          "GS.TS Đỗ Việt Hùng",
           "Đỗ Việt Hùng"
         ],
         "dob": [
           "1966"
         ],
         "que": [],
-        "dv": [],
+        "dv": [
+          "Đảng viên"
+        ],
         "td": [
-          "GT. TS Ngôn ngữ học, chuyên ngành Lý luận ngôn ngữ"
+          "GT. TS Ngôn ngữ học"
         ],
         "cv": [
           "Bí thư Đảng ủy nhà trường (6/2020 - 9/2023)",
@@ -1323,20 +1382,25 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DU-17": {
     "sources": [
-      "Hồ sơ Bí thư Đảng ủy - unzip/18. GS.TS Nguyễn Văn Minh  /Tài liệu không có tiêu đề.docx"
+      "BÍ THƯ ĐẢNG ỦY/18. GS.TS Nguyễn Văn Minh  /GS.TS.NGUT Nguyễn Văn Minh.docx"
     ],
     "modal": {
       "bio": {
         "name": [
+          "GS.TS.NGƯT Nguyễn Văn Minh",
           "Nguyễn Văn Minh"
         ],
         "dob": [
           "1963"
         ],
-        "que": [],
-        "dv": [],
+        "que": [
+          "Quảng Trị"
+        ],
+        "dv": [
+          "Đảng viên"
+        ],
         "td": [
-          "GS. TS Vật lý"
+          "GS. TS Vật lý học"
         ],
         "cv": [
           "Phụ trách Đảng ủy nhà trường (9/2023 - 12/2023 và 1/2026 - 5/2026)",
@@ -1360,25 +1424,33 @@ export const PROFILE_FULL_CONTENT = {
         ],
         "other": []
       },
-      "memories": []
+      "memories": [
+        "Tốt nghiệp Đại học Sư phạm Huế năm 1985, thầy Minh đã lên Tây Nguyên dạy học cho con em đồng bào dân tộc thiểu số. Chính những tháng ngày lăn lộn gian khó đó đã định hình triết lý giáo dục của thầy: \"Giáo dục trước hết và trên hết là hướng con người sống tử tế, sống có trách nhiệm, sống bằng tình yêu thương...\".",
+        "Tại Lễ bế giảng năm 2022 của Trường Đại học Sư phạm Hà Nội, thầy Nguyễn Văn Minh đã có bài phát biểu đầy cảm động và ý nghĩa về những suy nghĩ, trăn trở đi tìm triết lý giáo dục Việt Nam:",
+        "“Giáo dục để mỗi trẻ biết yêu thương đồng chua nước mặn, biết quý cái dải cát trắng trải dài, biết thương vách đá cheo leo và biết ơn đến từng nắm đất.",
+        "Giáo dục để mỗi trẻ biết một thời đau thương đất nước, biết thương non sông này đã mấy bận chia đôi; biết ơn hàng triệu người đã hòa vào lòng đất để bình yên có được hôm nay. Giáo dục để sông Gianh và dòng sông Bến Hải với những nhịp cầu nối trọn lòng người; đừng bao giờ có 20 năm đợi chờ đằng đẵng, đừng cách một dòng sông mà mất ngần ấy thời gian. Nhắc cho họ nhớ rằng, ngoài đảo xa có những ngôi mộ gió, trên núi non cao bao thế hệ hòa vào núi vào rừng, và trên kỳ đài cờ tung bay phấp phới, nhưng đường đến kỳ đài là biết mấy máu xương, để họ dám xả thân khi Tổ quốc cần họ, để trường tồn mãi mãi Việt Nam. Khi mỗi người biết yêu thương, tự nhiên trong họ sẽ sinh ra trách nhiệm.\""
+      ]
     }
   },
   "DU-18": {
     "sources": [
-      "Hồ sơ Bí thư Đảng ủy - unzip/19. PGS.TS Nguyễn Văn Hiền  /PGS.TS NGUYỄN VĂN HIỀN.docx"
+      "BÍ THƯ ĐẢNG ỦY/19. PGS.TS Nguyễn Văn Hiền  /PGS.TS NGUYỄN VĂN HIỀN.docx"
     ],
     "modal": {
       "bio": {
         "name": [
+          "PGS.TS Nguyễn Văn Hiền",
           "Nguyễn Văn Hiền"
         ],
         "dob": [
           "02/12/1975"
         ],
         "que": [
-          "tỉnh Lào Cai"
+          "Tỉnh Lào Cai"
         ],
-        "dv": [],
+        "dv": [
+          "Đảng viên"
+        ],
         "td": [
           "PGS. TS Sinh học"
         ],
@@ -1415,21 +1487,23 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DU-19": {
     "sources": [
-      "Hồ sơ Bí thư Đảng ủy - unzip/20. PGS.TS Nguyễn Đức Sơn/PGS.TS NGUYỄN ĐỨC SƠN.docx"
+      "BÍ THƯ ĐẢNG ỦY/20. PGS.TS Nguyễn Đức Sơn/PGS.TS NGUYỄN ĐỨC SƠN.docx"
     ],
     "modal": {
       "bio": {
         "name": [
-          "Nguyễn Đức Sơn (1970)",
+          "PGS.TS Nguyễn Đức Sơn (1970)",
           "Nguyễn Đức Sơn"
         ],
         "dob": [
           "1970"
         ],
         "que": [],
-        "dv": [],
+        "dv": [
+          "Đảng viên"
+        ],
         "td": [
-          "PGS.TS chuyên ngành Tâm lí giáo dục"
+          "PGS.TS Tâm lý giáo dục"
         ],
         "cv": [
           "Bí thư Đảng ủy nhà trường (5/2026 - nay)",
@@ -1457,7 +1531,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-01": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/1. Đại tá Lê Hùng/1. Đại tá Lê Hùng.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /1. Đại tá Lê Hùng/1. Đại tá Lê Hùng.docx"
     ],
     "modal": {
       "bio": {
@@ -1503,7 +1577,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-02": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/2. Đ-c Nguyễn Đình Chương/2. Nguyễn Đình Chương_.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /2. Đồng chí Nguyễn Đình Chương/2. Nguyễn Đình Chương_.docx"
     ],
     "modal": {
       "bio": {
@@ -1532,7 +1606,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-03": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/3. Đ-c Trịnh Ngọc Trình/3.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /3. Đồng chí Trịnh Ngọc Trình/3.docx"
     ],
     "modal": {
       "bio": {
@@ -1552,7 +1626,7 @@ export const PROFILE_FULL_CONTENT = {
           "Giáo sư"
         ],
         "cv": [
-          "Bí thư Đoàn trường ĐHSP Hà Nội giai đoạn 1962– 1965",
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội giai đoạn 1962 – 1965",
           "Bí thư Đoàn TNCS Hồ Chí Minh Trường ĐHSP Hà Nội giai đoạn 1962 - 1965"
         ],
         "other": [
@@ -1575,7 +1649,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-06": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/6. Nhà giáo Phạm Như Thân/6. Nhà giáo Phạm Như Thân.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /6. Nhà giáo Phạm Như Thân/6. Nhà giáo Phạm Như Thân.docx"
     ],
     "modal": {
       "bio": {
@@ -1594,7 +1668,7 @@ export const PROFILE_FULL_CONTENT = {
         ],
         "td": [],
         "cv": [
-          "Bí thư Đoàn trường Đại học Sư phạm Hà Nội (1967 - 1969)",
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội (1967 - 1969)",
           "6/1956 - 12/1957: Phụ trách công tác Thiếu nhi của Trường Thiếu nhi Việt Nam tại Quế Lâm (Trung Quốc)",
           "1/1958 - 8/1961: Phó Trưởng phòng Giáo dục huyện, cán bộ Ty Giáo dục tỉnh Thái Bình",
           "Từ 7/1965: làm cán bộ chuyên trách Đoàn Trường",
@@ -1628,9 +1702,105 @@ export const PROFILE_FULL_CONTENT = {
       "memories": []
     }
   },
+  "DT-07": {
+    "sources": [
+      "BÍ THƯ ĐOÀN TRƯỜNG /7. Đồng chí Đỗ Bội Toàn/ĐỒNG CHÍ ĐỖ BỘI TOÀN.docx"
+    ],
+    "modal": {
+      "bio": {
+        "name": [
+          "Đỗ Bội Toàn"
+        ],
+        "dob": [
+          "09/10/1939"
+        ],
+        "que": [
+          "Thuận Thành, Bắc Ninh"
+        ],
+        "dv": [],
+        "td": [],
+        "cv": [
+          "Bí thư Đoàn trường (giai đoạn 1969 - 1972)",
+          "Chân dung:",
+          "1969 - 1972: Nguyên Bí thư Đoàn trường",
+          "1960 - 1969: Hiệu phó Trường cấp 3 Tử Kỳ B, Hải Dương",
+          "1972 - 1996: Vụ phó Vụ lý luận Ban tư tưởng văn hóa Trung ương",
+          "Phó Chủ nhiệm khoa Kinh tế Trường Đại học Kinh doanh và công nghệ Hà Nội."
+        ],
+        "other": [
+          "ĐỒNG CHÍ ĐỖ BỘI TOÀN"
+        ]
+      },
+      "contributions": {
+        "union": [
+          "Trong giai đoạn 1969 - 1972, đồng chí Đỗ Bội Toàn được Đảng ủy, Ban Giám hiệu nhà trường tin tưởng, giao và đảm nhiệm chức vụ Bí thư Đoàn Trường Đại học Sư Phạm Hà Nội I.",
+          "Trong suốt quá trình công tác, đồng chí đã có nhiều đóng góp đối với công tác Đoàn và đối với sự phát triển chung của tập thể Trường Đại học Sư phạm Hà Nội I. Với những thành tựu và đóng góp quan trọng đó, đồng chí Đỗ Bội Toàn được Nhà nước khen tặng: Huân chương Kháng chiến chống Mỹ hạng Ba; Huân chương Lao động hạng Ba; Huy chương Vì sư nghiệp thế hệ trẻ và nhiều thành tích khác"
+        ],
+        "school": [
+          "Đóng góp đối với ngành giáo dục"
+        ],
+        "society": [],
+        "awards": [],
+        "other": []
+      },
+      "memories": [
+        "Nguồn tài liệu:",
+        "- Phỏng vấn trực tiếp đối tượng trưng bày, đồng nghiệp, sinh viên, học viên;",
+        "- Tuyển tập bài phỏng vấn/tác phẩm của đối tượng trình bày.",
+        "5. Tài liệu tham khảo:",
+        "- Bản tin Thanh niên Sư phạm năm 2019."
+      ]
+    }
+  },
+  "DT-08": {
+    "sources": [
+      "BÍ THƯ ĐOÀN TRƯỜNG /8. Đồng chí Trần Quang Nhiếp /PGS. TS Trần Quang Nhiếp.docx"
+    ],
+    "modal": {
+      "bio": {
+        "name": [
+          "Trần Quang Nhiếp"
+        ],
+        "dob": [],
+        "que": [],
+        "dv": [
+          "26/03/1967"
+        ],
+        "td": [
+          "Phó giáo sư, Tiến sĩ"
+        ],
+        "cv": [
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội (giai đoạn 1972 – 1975)",
+          "Chân dung:"
+        ],
+        "other": [
+          "PGS.TS Trần Quang Nhiếp"
+        ]
+      },
+      "contributions": {
+        "union": [
+          "Trong hơn 10 năm (1968 - 1978) công tác ở Trường ĐHSP Hà Nội I, đồng chí Trần Quang Nhiếp được Đảng ủy, Ban Giám hiệu tin tưởng, giao nhiều trọng trách và giữ các chức vụ: Thường vụ, Phó Bí thư, Bí thư Đoàn Trường; Đảng ủy viên phụ trách công tác thanh niên; Phó trưởng phòng chính trị; Thường trực Đảng ủy kiêm Chánh văn phòng Đảng ủy nhà trường.",
+          "Quá trình gắn bó mật thiết với công tác thanh niên tại Trường Đại học Sư phạm Hà Nội I đã rèn luyện, hun đúc tình cảm, ý thức, động lực cho đồng chí phấn đấu và đạt được nhiều thành tựu trong những chặng đường tiếp theo.",
+          "Năm 1978, đồng chí Trần Quang Nhiếp được cử đi học tập lớp cán bộ lí luận trẻ ở Học viên Nguyễn Ái Quốc (nay là Học viện Chính trị - Hành chính quốc gia Hồ Chí Minh). Sau đó, đồng chí trở thành nghiên cứu sinh chuyên ngành Chủ nghĩa xã hội khoa học. Ngay khi tốt nghiệp, đồng chí được giữ lại giảng dạy tại Viện Chủ nghĩa xã hội khoa học thuộc Học viện Nguyễn Ái Quốc.",
+          "1983 – 1992: đồng chí Trần Quang Nhiếp tham gia học tại Viện hàn lâm khoa học xã hội trực thuộc BCH Trung ương Đảng Cộng sản Liên Xô tại Matxcơva (1987 - 1988), bảo vệ thành công luận án Phó tiến sĩ Triết học (nay là Tiến sĩ) chuyên ngành Chủ nghĩa xã hội khoa học (1990).",
+          "Từ năm 1992, đồng chí được cử về công tác tại Tạp chí cộng sản – cơ quan lí luận và chính trị quan trọng của Trung ương Đảng và đảm nhiệm nhiều cương vị: Phó Vụ trưởng, Vụ trưởng Vụ Chính trị - Triết học; Phó Tổng biên tập, Bí thư Đảng ủy cơ quan; Chủ tịch Hội đồng khoa học cơ quan.",
+          "Năm 1996, đồng chí Trần Quang Nhiếp được phong hàm Phó Giáo sư Triết học.",
+          "Với những thành tựu và đóng góp quan trọng đó, đồng chí Trần Quang Nhiếp được Nhà nước tặng Huy chương Kháng chiến hạng Nhất; Huân chương lao động hạng Nhì; được các cơ quan, đoàn thể tặng các Kỷ niệm chương: Vì thế hệ trẻ, Vì sự nghiệp Giáo dục, Vì sự nghiệp giải phóng Phụ nữ, Vì sự nghiệp quốc phòng an ninh, Vì sự nghiệp công tác tuyên giáo, Vì sự nghiệp công tác kiểm tra, Vì sự nghiệp công tác dân tộc, Vì sự nghiệp xây dựng Tạp chí Cộng sản, Vì sự nghiệp xây dựng Trường THPT Đông Đô...và nhiều bằng khen khác.",
+          "Đóng góp với ngành giáo dục:",
+          "Đối với ngành giáo dục, đồng chí Trần Quang Nhiếp đã có nhiều quan trọng trong công tác giảng dạy, hướng dẫn nhiều Cử nhân, Thạc sĩ, Tiến sĩ ở nhiều cơ sở đào tạo về lí luận Mác – Lênin, Tư tưởng Hồ Chí Minh.",
+          "Ngoài ra, PGS.TS Trần Quang Nhiếp còn là tác giả của nhiều cuốn sách, bài viết, chuyên khảo, bài giảng phong phú, sâu sắc, sinh động về các vấn đề chủ nghĩa Mác – Lênin; về xây dựng Đảng, về chủ nghĩa xã hội và chủ nghĩa xã hội ở Việt, về các vấn đề chính trị khác. Thật sự là nguồn tư liệu quan trọng phục vụ cho tuyên truyền, học tập, làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh."
+        ],
+        "school": [],
+        "society": [],
+        "awards": [],
+        "other": []
+      },
+      "memories": []
+    }
+  },
   "DT-11": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/11. Đ-c Phạm Đăng Dư/Đc Phạm Đăng Dư.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /11. Đồng chí Phạm Đăng Dư/Đc Phạm Đăng Dư.docx"
     ],
     "modal": {
       "bio": {
@@ -1645,7 +1815,7 @@ export const PROFILE_FULL_CONTENT = {
           "Ngữ văn, chuyên ngành Lí luận văn học"
         ],
         "cv": [
-          "Bí thư Đoàn trường ĐHSP Hà Nội (1978 - 1982)",
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội (1978 - 1982)",
           "1978 - 1982: Bí thư Đoàn trường ĐHSP Hà Nội",
           "trưởng phòng Hành chính tổng hợp Trường ĐHSPHN",
           "1982 - 2011: Cố vấn Đoàn trường",
@@ -1669,14 +1839,12 @@ export const PROFILE_FULL_CONTENT = {
         ],
         "other": []
       },
-      "memories": [
-        "- Bài viết “Nhớ NGƯT Phạm Đăng Dư - Tấm gương mẫu mực của Người Cán bộ Đoàn Thanh niên” của nguyên Bí thư Đoàn trường Nguyễn Bá Cường."
-      ]
+      "memories": []
     }
   },
   "DT-12": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/12. Đ-c Võ Thế Quân/Đc Võ Thế Quân.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /12. Đồng chí Võ Thế Quân/Đc Võ Thế Quân.docx"
     ],
     "modal": {
       "bio": {
@@ -1694,7 +1862,7 @@ export const PROFILE_FULL_CONTENT = {
           "Tiến sĩ Sinh học"
         ],
         "cv": [
-          "Bí thư Đoàn trường ĐHSP Hà Nội (1982 – 1983)",
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội (1982 – 1983)",
           "1982 - 1983: Bí thư Đoàn trường Đại học Sư phạm Hà Nội, Uỷ viên BCH Đảng bộ Trường ĐHSP Hà Nội",
           "2011 - 2016: Ủy viên BCH Hội hữu nghị Việt - Trung thành phố Hà Nội, Đại biểu HĐND quận Tây Hồ khóa IV"
         ],
@@ -1716,7 +1884,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-13": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/13. Đ-c Trần Văn Nguyệt/Tiểu sử.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /13. Đồng chí Trần Văn Nguyệt/Tiểu sử.docx"
     ],
     "modal": {
       "bio": {
@@ -1736,7 +1904,7 @@ export const PROFILE_FULL_CONTENT = {
           "Tiến sĩ Vật lý"
         ],
         "cv": [
-          "Bí thư Đoàn trường ĐHSP Hà Nội (1983 - 1984)",
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội (1983 - 1984)",
           "1973 - 1975: Uỷ viên BCH Liên chi Đoàn tại Trường Sĩ quan Công binh",
           "1975 - 1978: Uỷ viên BCH Liên chi Đoàn khoa Vật lý, Trường Đại học Sư phạm Hà Nội",
           "1983 - 1984: Bí thư Đoàn trường ĐHSP Hà Nội",
@@ -1766,7 +1934,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-14": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/14. Đ-c Lê Quốc Băng/14.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /14. Đồng chí Lê Quốc Băng/14.docx"
     ],
     "modal": {
       "bio": {
@@ -1786,7 +1954,7 @@ export const PROFILE_FULL_CONTENT = {
           "Tiến sĩ (?)"
         ],
         "cv": [
-          "Bí thư Đoàn trường ĐHSP Hà Nội (1984 - 1986)",
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội (1984 - 1986)",
           "1980 - 1982: Bí thư Liên chi đoàn khoa Giáo dục chính trị trường Đại học Sư phạm Hà Nội;",
           "1984 - 1986: Bí thư Đoàn TNCS Hồ Chí Minh trường Đại học Sư phạm Hà Nội",
           "Phó Hiệu trưởng, Bí thư Đảng ủy trường Đại học Hải Phòng"
@@ -1814,7 +1982,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-15": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/15. Đ-c Dương Duy Bằng/15.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /15. Đồng chí Dương Duy Bằng/15.docx"
     ],
     "modal": {
       "bio": {
@@ -1834,7 +2002,7 @@ export const PROFILE_FULL_CONTENT = {
           "Tiến sĩ Sử học, chuyên ngành Lịch sử Thế giới"
         ],
         "cv": [
-          "Bí thư Đoàn trường ĐHSP Hà Nội (1986 - 1987)",
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội (1986 - 1987)",
           "1984 - 1985: Phó Bí thư Đoàn Trường Đại học Sư phạm Hà Nội",
           "1986 - 1987: Bí thư Đoàn Trường Đại học Sư phạm Hà Nội",
           "1999 - 2004: Phó Hiệu trưởng Trường THCS và THPT Nguyễn Tất Thành - Trường Đại học Sư phạm Hà Nội.",
@@ -1862,7 +2030,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-16": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/16. PGS.TS. Nguyễn Tân Ân/PGS.TS. Nguyễn Tân Ân.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /16. PGS.TS. Nguyễn Tân Ân/PGS.TS. Nguyễn Tân Ân.docx"
     ],
     "modal": {
       "bio": {
@@ -1880,7 +2048,7 @@ export const PROFILE_FULL_CONTENT = {
           "PGS. TS Công nghệ thông tin, chuyên ngành Khoa học máy tính"
         ],
         "cv": [
-          "Bí thư Đoàn trường ĐHSP Hà Nội giai đoạn 1988 - 1991",
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội giai đoạn 1988 - 1991",
           "1986 - 1987: Phó Bí thư Đoàn Trường Đại học Sư phạm Hà Nội.",
           "1988 - 1989: Bí thư Đoàn Trường Đại học Sư phạm Hà Nội; Phó Cụm trưởng, Cụm trưởng Cụm các Đoàn Trường Đại học - Cao đẳng khu vực Từ Liêm.",
           "1990 - 1991: Đảng ủy viên Trường, Bí thư Đoàn Trường Đại học Sư phạm Hà Nội, Cụm trưởng Cụm các Đoàn Trường Đại học, Cao đẳng khu vực Từ Liêm.",
@@ -1894,14 +2062,15 @@ export const PROFILE_FULL_CONTENT = {
         "union": [],
         "school": [],
         "society": [],
-        "awards": [],
+        "awards": [
+          "Bằng khen của Trung đoàn (trong thời gian ở Bộ đội).",
+          "Huy chương danh dự TW Đoàn TNCS Hồ Chí Minh."
+        ],
         "other": [
           "Trong phong trào Đoàn:",
           "Năm 1988: Ban Chấp hành Đoàn trường Đại học Sư phạm Hà Nội tổ chức biên soạn tài liệu hướng dẫn công tác Đoàn.",
           "Năm 1989: Các đồng chí: Hà Quang Dự - Bí thư thứ nhất Ban Chấp hành Trung ương Đoàn, Trần Văn Tuấn - Bí thư Thành Đoàn Hà Nội, Ngô Thị Doãn Thanh - Trưởng ban Trường học Thành Đoàn - đến Trường Đại học Sư phạm Hà Nội dự sinh hoạt chi đoàn điểm với một chi đoàn sinh viên Khoa Ngữ văn.",
-          "Năm 1990: Đoàn trường củng cố lại “Đội Thanh niên Xung kích”.",
-          "Bằng khen của Trung đoàn (trong thời gian ở Bộ đội).",
-          "Huy chương danh dự TW Đoàn TNCS Hồ Chí Minh."
+          "Năm 1990: Đoàn trường củng cố lại “Đội Thanh niên Xung kích”."
         ]
       },
       "memories": []
@@ -1909,7 +2078,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-17": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/17. Đ-c Nguyễn Đức Tuấn/17.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /17. Đồng chí Nguyễn Đức Tuấn/17.docx"
     ],
     "modal": {
       "bio": {
@@ -1923,7 +2092,7 @@ export const PROFILE_FULL_CONTENT = {
           "Thạc sĩ"
         ],
         "cv": [
-          "Bí thư Đoàn trường ĐHSP Hà Nội giai đoạn 1991 - 1995",
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội giai đoạn 1991 - 1995",
           "1991 - 1995: Bí thư Đoàn Trường Đại học Sư phạm Hà Nội"
         ],
         "other": []
@@ -1947,7 +2116,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-18": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/18. Đ-c Phạm Tất Thắng/18.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /18. Đồng chí Phạm Tất Thắng/18.docx"
     ],
     "modal": {
       "bio": {
@@ -2011,7 +2180,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-19": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/19. Đ-c Nguyễn Văn Phong/19. Đ_c Nguyễn Văn Phong.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /19. Đồng chí Nguyễn Văn Phong/19. Đ_c Nguyễn Văn Phong.docx"
     ],
     "modal": {
       "bio": {
@@ -2031,7 +2200,7 @@ export const PROFILE_FULL_CONTENT = {
           "TS. Giáo dục học"
         ],
         "cv": [
-          "Bí thư Đoàn trường ĐHSP Hà Nội (1992 - 2002)",
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội (1992 - 2002)",
           "1986 - 1988: Cán bộ chuyên trách Đoàn phường Đội Cấn, Ba Đình, Hà Nội.",
           "1988 - 1992: Ủy viên Ban Chấp hành Đoàn Thanh niên Cộng sản Hồ Chí Minh Trường Đại học Sư phạm Hà Nội khóa VIII.",
           "1992 - 2002: Ủy viên Ban Thường vụ Đoàn Thanh niên Cộng sản Hồ Chí Minh Trường Đại học Sư phạm Hà Nội khóa IX, Phó Bí thư Đoàn Thanh niên Cộng sản Hồ Chí Minh Trường Đại học Sư phạm Hà Nội khóa X; Bí thư Đoàn Thanh niên Cộng sản Hồ Chí Minh Trường Đại học Sư phạm Hà Nội khóa XI, Ủy viên Ban Thường vụ Đoàn Thanh niên Cộng sản Hồ Chí Minh Đại học Quốc gia Hà Nội khóa I.",
@@ -2062,7 +2231,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-20": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/20. Đ-c Trịnh Thị Lan/Tiểu sử.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /20. Đồng chí Trịnh Thị Lan/Tiểu sử.docx"
     ],
     "modal": {
       "bio": {
@@ -2080,7 +2249,7 @@ export const PROFILE_FULL_CONTENT = {
           "PGS.TS chuyên ngành Lý luận và Phương pháp dạy học bộ môn Văn - Tiếng Việt."
         ],
         "cv": [
-          "Bí thư Đoàn trường ĐHSP Hà Nội giai đoạn 2002 - 2004",
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội giai đoạn 2002 - 2004",
           "2002 - 2004: Bí thư Đoàn trường ĐHSP Hà Nội",
           "Bí thư Chi bộ Ngữ văn 4, Trưởng bộ môn Lý luận và PPDH bộ môn Văn và Tiếng Việt – khoa Ngữ văn."
         ],
@@ -2104,7 +2273,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-21": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/21. PGS.TS. Nguyễn Văn Hiền/PGS.TS Nguyễn Văn Hiền.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /21. PGS.TS. Nguyễn Văn Hiền/PGS.TS Nguyễn Văn Hiền.docx"
     ],
     "modal": {
       "bio": {
@@ -2122,7 +2291,7 @@ export const PROFILE_FULL_CONTENT = {
           "PGS.TS Sinh học"
         ],
         "cv": [
-          "Bí thư Đoàn trường (2004 - 2006)",
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội (2004 - 2006)",
           "2004 - 2006: Bí thư Đoàn Thanh niên Trường Đại học Sư phạm Hà Nội",
           "2006: Trưởng phòng Hành chính – Tổng hợp",
           "2013: Giám đốc Trung tâm Nghiên cứu và Sản xuất học liệu",
@@ -2152,7 +2321,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-22": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/22. PGS.TS. Nguyễn Xuân Thành/PGS.TS Nguyễn Xuân Thành.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /22. PGS.TS. Nguyễn Xuân Thành/PGS.TS Nguyễn Xuân Thành.docx"
     ],
     "modal": {
       "bio": {
@@ -2165,10 +2334,10 @@ export const PROFILE_FULL_CONTENT = {
         ],
         "dv": [],
         "td": [
-          "PGS.TS"
+          "Phó giáo sư, Tiến sĩ"
         ],
         "cv": [
-          "Bí thư Đoàn trường ĐHSP Hà Nội (2006 - 2007)",
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội (2006 - 2007)",
           "Sinh năm: 1969"
         ],
         "other": []
@@ -2189,7 +2358,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-23": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/23. PGS.TS. Nguyễn Bá Cường/PGS.TS Nguyễn Bá Cường.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /23. PGS.TS. Nguyễn Bá Cường/PGS.TS Nguyễn Bá Cường.docx"
     ],
     "modal": {
       "bio": {
@@ -2205,7 +2374,7 @@ export const PROFILE_FULL_CONTENT = {
           "PGS.TS, Giảng viên cao cấp Khoa Triết học"
         ],
         "cv": [
-          "Nguyên Bí thư Đoàn trường (Giai đoạn 2007 - 2012)",
+          "Nguyên Bí thư Đoàn Trường Đại học Sư phạm Hà Nội (Giai đoạn 2007 - 2012)",
           "Sinh ngày: 13/10/1976",
           "2000 - 2001: Bí thư Chi đoàn Cán bộ Khoa Giáo dục Chính trị",
           "2001 - 2003: Phó Bí thư Liên chi đoàn Khoa Giáo dục Chính trị",
@@ -2231,7 +2400,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-24": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/24. TS. Lê Xuân Quang/TS Lê Xuân Quang.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /24. TS. Lê Xuân Quang/TS Lê Xuân Quang.docx"
     ],
     "modal": {
       "bio": {
@@ -2242,10 +2411,10 @@ export const PROFILE_FULL_CONTENT = {
         "que": [],
         "dv": [],
         "td": [
-          "TS"
+          "Tiến sĩ"
         ],
         "cv": [
-          "Bí thư Đoàn trường (Giai đoạn 2012 - 2015)",
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội (Giai đoạn 2012 - 2015)",
           "Sinh ngày:",
           "2012 - 2015: Bí thư Đoàn trường Đại học Sư phạm Hà Nội",
           "2025 - 2030: Giám đốc Nhà xuất bản Đại học Sư phạm"
@@ -2270,7 +2439,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-25": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/25. TS. Nguyễn Thanh Xuân/TS Nguyễn Thanh Xuân.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /25. TS. Nguyễn Thanh Xuân/TS Nguyễn Thanh Xuân.docx"
     ],
     "modal": {
       "bio": {
@@ -2281,10 +2450,10 @@ export const PROFILE_FULL_CONTENT = {
         "que": [],
         "dv": [],
         "td": [
-          "TS"
+          "Tiến sĩ"
         ],
         "cv": [
-          "Bí thư Đoàn trường ĐHSP Hà Nội (2015 - 2017)",
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội (2015 - 2017)",
           "Sinh ngày:"
         ],
         "other": []
@@ -2305,7 +2474,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-26": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/26. TS. Nguyễn Văn Thỏa/TS. Nguyễn Văn Thỏa.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /26. TS. Nguyễn Văn Thỏa/TS. Nguyễn Văn Thỏa.docx"
     ],
     "modal": {
       "bio": {
@@ -2326,8 +2495,8 @@ export const PROFILE_FULL_CONTENT = {
         ],
         "cv": [
           "Bí thư Đoàn trường Đại học Sư phạm Hà Nội (2017 - 2019)",
-          "Bí thư chi bộ, Giám đốc Trung tâm Nghiên cứu và Sản xuất học liệu Trường ĐHSP Hà Nội (2020-2021)",
-          "Bí thưc chi bộ, Trưởng Ban Ký túc xá Trường ĐHSP Hà Nội (2021 - nay)",
+          "Bí thư chi bộ, Giám đốc Trung tâm Nghiên cứu và Sản xuất học liệu Trường Đại học Sư phạm Hà Nội (2020-2021)",
+          "Bí thư chi bộ, Trưởng Ban Ký túc xá Trường Đại học Sư phạm Hà Nội (2021 - nay)",
           "2014 - 2017: Phó bí thư Đoàn trường ĐHSP Hà Nội",
           "2017 - 2019: Bí thư Đoàn trường ĐHSP Hà Nội"
         ],
@@ -2364,7 +2533,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-27": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/27. TS. Đinh Minh Hằng/TS. Đinh Minh Hằng.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /27. TS. Đinh Minh Hằng/TS. Đinh Minh Hằng.docx"
     ],
     "modal": {
       "bio": {
@@ -2381,10 +2550,11 @@ export const PROFILE_FULL_CONTENT = {
           "19/05/2010"
         ],
         "td": [
-          "TS Văn học"
+          "Tiến sĩ Văn học"
         ],
         "cv": [
-          "Bí thư Đoàn trường (2019 - 2022)"
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội (2019 - 2022)",
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội(2019 - 2022)"
         ],
         "other": []
       },
@@ -2414,7 +2584,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-28": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/28. TS. Bùi Thị Hà Giang/TS. Bùi Thị Hà Giang.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /28. TS. Bùi Thị Hà Giang/TS. Bùi Thị Hà Giang.docx"
     ],
     "modal": {
       "bio": {
@@ -2430,10 +2600,10 @@ export const PROFILE_FULL_CONTENT = {
           "24/5/2016"
         ],
         "td": [
-          "TS chuyên ngành Vật lý lý thuyết và Vật lý toán"
+          "Tiến s chuyên ngành Vật lý lý thuyết và Vật lý toán"
         ],
         "cv": [
-          "Bí thư Đoàn trường (Giai đoạn 2022 - 2024)",
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội (Giai đoạn 2022 - 2024)",
           "Bí thư Đoàn trường nhiệm kỳ 2022 - 2024;",
           "Phó Bí thư Đoàn trường nhiệm kỳ 2017 - 2019 và nhiệm kỳ 2019 - 2022;",
           "Bí thư Liên chi đoàn Khoa Vật lí nhiệm kỳ 2014 - 2017 và nhiệm kỳ 2017 - 2019."
@@ -2459,7 +2629,7 @@ export const PROFILE_FULL_CONTENT = {
   },
   "DT-29": {
     "sources": [
-      "Hồ sơ Bí thư Đoàn trường - unzip/29. TS. Phạm Thị Thanh Thúy/TS. Phạm Thị Thanh Thúy.docx"
+      "BÍ THƯ ĐOÀN TRƯỜNG /29. TS. Phạm Thị Thanh Thúy/TS. Phạm Thị Thanh Thúy.docx"
     ],
     "modal": {
       "bio": {
@@ -2473,10 +2643,10 @@ export const PROFILE_FULL_CONTENT = {
         ],
         "dv": [],
         "td": [
-          "TS, Giảng viên khoa Công tác xã hội"
+          "Tiến sĩ, Giảng viên khoa Công tác xã hội"
         ],
         "cv": [
-          "Bí thư Đoàn trường (Giai đoạn 2024 - nay)"
+          "Bí thư Đoàn Trường Đại học Sư phạm Hà Nội (Giai đoạn 2024 - nay)"
         ],
         "other": []
       },

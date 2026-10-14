@@ -8,9 +8,7 @@ const topicDir = resolve(scriptDir, "..");
 const profilesPath = resolve(scriptDir, "data/profiles.js");
 const outputPath = resolve(scriptDir, "data/profile-full-content.js");
 const { PROFILE_DATA } = await import(pathToFileURL(profilesPath));
-const SUPPLEMENTARY_DOCX = {
-  "HT-12": ["Hồ sơ Hiệu trưởng - unzip/12. GS.TS Nguyễn Văn Minh /- Nguồn tham khảo.docx"],
-};
+const SUPPLEMENTARY_DOCX = {};
 
 function decodeXml(value) {
   return value
@@ -151,7 +149,7 @@ for (const profile of PROFILE_DATA) {
   }
 }
 
-const banner = `// Generated from the DOCX files in the main project.\n// Run: node scripts/generate-profile-full-content.mjs\n`;
+const banner = `// Generated only from the three canonical Chủ đề 5 source folders.\n// Run: node scripts/generate-profile-full-content.mjs\n`;
 writeFileSync(
   outputPath,
   `${banner}export const PROFILE_FULL_CONTENT = ${JSON.stringify(content, null, 2)};\n`,
